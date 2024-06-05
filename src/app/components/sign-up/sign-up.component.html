@@ -1,0 +1,49 @@
+<!-- app.component.html -->
+<div class="container-fluid">
+  <div class="row w-100 d-flex justify-content-center align-items-center vh-100">
+    <div class="col-md-3 boxShadow">
+      <img src="../../../assets/mobile-login-concept-illustration_114360-83.avif" class="img-fluid" alt="Signup Illustration">
+    </div>
+    <div class="col-md-6">
+      <div class="authBlock">
+        <h3>Sign Up</h3>
+        <form>
+          <div class="form-group m-1">
+            <label for="userEmail">Email Address</label>
+            <input
+              type="email"
+              id="userEmail"
+              class="form-control"
+              #userEmail
+              required
+            />
+          </div>
+          <div class="form-group m-1">
+            <label for="userPwd">Password</label>
+            <input
+              type="password"
+              id="userPwd"
+              class="form-control"
+              #userPwd
+              required
+            />
+          </div>
+          <div class="form-group m-1 text-center">
+            <input
+              type="button"
+              class="btn btn-primary"
+              value="Sign Up"
+              (click)="authService.SignUp(userEmail.value, userPwd.value)"
+            />
+          </div>
+          <div class="form-group m-1 text-center">
+            <span class="or"><span class="orInner">Or</span></span>
+          </div>
+          <div class="form-group m-1 text-center">
+            <span>Already have an account? <a class="redirect" href="/sign-in">Log In</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,20 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-:root {
-    --bg-color: #86469C;
-    --secondary-color: #BC7FCD;
-    --primary-color: #FB9AD1;
-    --navbar-footer-color: #FFCDEA;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-.boxShadow{
-    border-radius: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
-}
-
-/* common-styles.css */
+/* styles.css */
 .authBlock {
     background: white;
     padding: 30px;
@@ -65,26 +49,7 @@
     height: 100vh;
   }
   
-  .boxShadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .img-fluid {
-    width: 100%;
-    height: auto;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004085;
+  .bg-primary {
+    background-color: #007bff !important;
   }
   
