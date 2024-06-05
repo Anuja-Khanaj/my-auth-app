@@ -1,0 +1,49 @@
+/* common-styles.css */
+.navbar-brand img {
+    height: 40px;
+  }
+  
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 56px);
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable sidebar */
+  }
+  
+  .sidebar .nav-link {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background-color: #e9ecef;
+    color: #007bff;
+  }
+  
+  .main-content {
+    margin-top: 20px;
+  }
+  
+  .media img.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .media-body {
+    margin-left: 20px;
+  }
+  
+  .media-body h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .media-body p {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  
